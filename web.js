@@ -12,7 +12,7 @@ fs.readFileSync('./index.html','utf8', function (err, data) {
   response.writeHead(200, {'Content-Type': 'text/html','Content-Length':data.length});
         response.write(data);
         response.end();	
-}
+}});
   
 });
 
